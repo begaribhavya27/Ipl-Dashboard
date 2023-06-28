@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.team-card-container {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff33;
+  border: 2px solid #aaaaac;
+  width: 150px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.team-img {
+  width: 30px;
+  margin-right: 10px;
+}
+.team-name {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+.team-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .team-card-container {
+    width: 300px;
+  }
+  .team-img {
+    width: 50px;
+  }
+  .team-name {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.latest-matches-container {
+  margin-top: 20px;
+}
+.latest-match-head {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  border-style: none;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.latest-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.match-details-1 {
+  width: 70%;
+}
+.match-details-team {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 20px;
+}
+.match-details-date {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 17px;
+}
+.match-details {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 15px;
+}
+.competing-team-logo {
+  max-height: 60px;
+}
+.seperator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+.match-details-2 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.label {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 14px;
+}
+.value {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .latest-logo-container {
+    width: 65%;
+  }
+  .match-details-1 {
+    align-self: flex-start;
+    width: 48%;
+  }
+  .match-details-team {
+    font-size: 30px;
+  }
+  .match-details-date {
+    font-size: 25px;
+  }
+  .match-details {
+    font-size: 20px;
+  }
+  .competing-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .seperator {
+    display: none;
+  }
+  .match-details-2 {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .value {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .latest-logo-container {
+    width: 60%;
+  }
+  .match-details-1 {
+    width: 70%;
+  }
+}
